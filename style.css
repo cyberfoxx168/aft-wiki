@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Comfortaa&display=swap');
+
+body{
+    color: rgb(32, 43, 44);
+    background-color: rgb(187, 209, 216);
+    font-family: 'Comfortaa', cursive;
+}
+
+p{
+    font-size: 20px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(18, 25, 50);
+    font-family: 'Audiowide', cursive;
+}
+
+input{
+    font-family: 'Comfortaa', cursive;
+    color: darkslategray;
+}
+
+button{
+    font-family: 'Comfortaa', cursive;
+    color: darkslateblue;
+}
+
+img{
+    display: flex;
+    align-items: baseline;
+    margin-top: 50px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_menu {
+    position: fixed;
+    width: calc(100vw - 6em);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    top: 10px;
+    background-color: azure;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.menu_item {
+    text-align: center;
+    padding: 2em;
+}
+
+header{
+    padding-top: 90px;
+}
